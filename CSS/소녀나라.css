@@ -1,0 +1,434 @@
+
+        /* 이미지크기 */
+        img{
+            max-width:100%;
+            max-height: 100%;
+        }
+        /* 버튼 테두리 삭제 */
+        button{
+            border: none;
+            background: none;
+        }
+
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        header{
+            width: 1400px;
+            height: 245px;
+            background-color: white;
+        }
+        .right{
+            display: flex;
+            justify-content: end;
+            background-color: white;
+            font-size: 12px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .rightone{
+            margin-top: 3px;
+        }
+        
+        .rightoneside{
+            color: #ff7d92;
+            margin-top: 3px;
+        }
+        .sideone{
+            margin-top: 3px;
+        }
+        .righttwo{
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+       
+        .rightthree{
+            
+            margin-left: 10px;
+            width: 55px;
+            height: 10px;
+            
+        }
+        .top{
+            display: flex;
+            align-items: center;
+            width: 1500px;
+            height: 131px;
+            background-color: white;
+            border-top-style: solid;
+            border-top-width: 2px;
+            border-top-color: rgb(201, 195, 195);
+        }
+        
+        .topimg{
+            height: 41px;
+            width: 140px;
+            margin-left: 200px;
+        }
+        .topsearch{
+            width:363px;
+            height: 44px;
+            margin-left: 30px;
+        }
+        .topcheck{
+            width: 35px;
+            height: 33px;
+            font-size: 13px;
+            margin-left: 30px;
+        }
+        .toplike{
+            width: 35px;
+            height: 33px;
+            font-size: 11px;
+            margin-left: 30px;
+        }
+        .topbasket{
+            width: 50px;
+            height: 33px;
+            font-size: 11px;
+            margin-left: 25px;
+        }
+        .topplan{
+            width: 35px;
+            height: 33px;
+            font-size: 11px;
+            margin-left: 30px;
+        }
+        .toptime{
+            width: 200px;
+            height: 29px;
+            margin-left: 80px;
+        }
+        .nav{
+            display: flex;
+            justify-content: center;
+        }
+        .navbutton{
+            width: 52px;
+            height: 52px;
+            margin-right: 20px;
+            margin-top: 15px;
+        }
+        .navbest{
+            color: #9f3ff8;
+            margin-right: 12px;
+            margin-top: 15px;
+        }
+        .navnew{
+            color: #ff416f;
+            margin-right: 12px;
+            margin-top: 15px;
+        }
+        .nav a{
+            padding-left: 13px;
+            margin-top: 15px;
+        }
+        .navstart{
+            width: 120px;
+            height: 70px;
+            margin-left: 110px;
+        }
+        .bigimage{
+            display: flex;
+        }
+        .bigimageone{
+            width: 750px;
+            height: 750px;
+        }
+        .bigimagetwo{
+            width: 750px;
+            height: 750px;
+            margin-left: 11px;
+        }
+        main{
+            width: 1500px;
+            height: 5080.8px;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .mainimage{
+            width: 1500px;
+            height: 4991.8px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 60px;
+            
+    
+
+        }
+        .titlefont{
+            width: 1500px;
+            height: 35.2px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .fourbutton{
+            display: flex;
+            height: 67px;
+        }
+        .fourone{
+            width: 93px;
+            height: 67px;
+            margin-top: 34px;
+        }
+        .fourtwo{
+            width: 93px;
+            height: 67px;
+            margin-top: 30px;
+        }
+        .fourthree{
+            width: 93px;
+            height: 67px;
+            margin-top: 30px;
+        }
+        .fourfour{
+            width: 93px;
+            height: 67px;
+            margin-top: 36px;
+        }
+        /* 이미지  */
+        .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9,.image10,.image11,.image12,.image13,.image14,.image15,.image16,.image17,.image18,.image19,.image20,.image21,.image22,.image23,.image24,.image25,.image26,.image27,.image28,.image29,.image30,.image31,.image32,.image33,.image34,.image35,.image36,.image37,.image38,.image39,.image40,.image41,.image42,.image43,.image44,.image45,.image46,.image47,.image48,.image49,.image50,.image51,.image52,.image53,.image54,.image55,.image56,.image57,.image58,.image59,.image60{
+            width: 253px;
+            height: 253px;
+        }
+        .image2,.image3,.image4,.image5,.image7,.image8,.image9,.image10,.image12,.image13,.image14,.image15,.image17,.image18,.image19,.image20,.image22,.image23,.image24,.image25,.image27,.image28,.image29,.image30,.image32,.image33,.image34,.image35,.image37,.image38,.image39,.image40,.image42,.image43,.image44,.image45,.image47,.image48,.image49,.image50,.image51,.image52,.image53,.image54,.image55,.image56,.image57,.image58,.image59,.image60{
+            margin-left: 30px;
+        }
+        
+        /* 이미지 밑에 텍스트*/
+        .imagetext{
+            font-size: 12px;
+        }
+        .imagetexttwo{
+            color:#878787;
+            font-size: 14px;
+        }
+        .info{
+            font-size: 17px;
+            color:#ff7d9e;
+        }
+        .redtext{
+            font-size: 13px;
+            color:#ff485a;
+
+
+
+            /* bottom */
+        }
+        .bottom{
+            border-top-style: solid;
+            border-top-width: 2px;
+            border-top-color: rgb(201, 195, 195);
+            width: 1500px;
+            height: 512px;
+            display: flex;
+            margin-top: 230px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .bottom1{
+            width: 268px;
+            height: 338.4px;
+        }
+        .bottom11{
+            font-size: 17px;
+            color: #000000;
+        }
+        .bottom12{
+            font-size: 17px;
+            color:#000000;
+            margin-top: 10px;
+        }
+        .bottom1kakao{
+            width: 254.2px;
+            height: 45.2px;
+            margin-top: 10px;
+        }
+        .bottom1call{
+            font-size: 17px;
+            color:#000000;
+            width: 268px;
+            height: 18.7px;
+            margin-top: 10px;
+        }
+       .call21{
+           display: flex;
+           margin-top: 10px;
+           margin-bottom: 10px;
+       }
+       .call1{
+           margin-right: 13px;
+       }
+       .call3{
+           margin-top: 10px;
+       }
+       .call34{
+           display: flex;
+           border-top-style: solid;
+           border-top-width: 1px;
+           border-top-color: rgb(201, 195, 195);
+       }
+       .call4{
+           margin-top: 35px;
+           margin-left: 10px;
+       }
+
+       /* bottom2 */
+       .bottom2{
+           width: 265px;
+           height: 396px;
+           margin-top: 60px;
+           margin-left: 50px;
+       }
+       .bottom2title{
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color: rgb(201, 195, 195);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(201, 195, 195);
+        font-size: 17px;
+        color:#000000;
+       }
+       .bottom2text{
+           font-size: 14px;
+           color:#555555;
+       }
+       .bottom2icon{
+           display: flex;
+           margin-top: 20px;
+       }
+       .iconone{
+           font-size: 14px;
+           color:#000000;
+           width: 78px;
+           height: 105.4px;
+       }
+       .icontwo{
+        font-size: 14px;
+        color:#000000;
+        width: 78px;
+        height: 105.4px;
+       }
+       .iconthree{
+        font-size: 14px;
+        color:#000000;
+        width: 78px;
+        height: 105.4px;
+       }
+      
+       .bottom3{
+        width: 180px;
+        height: 405.4px;
+        margin-top: 70px;
+        margin-left: 30px;
+       }
+       .bottom31{
+           font-size: 17px;
+           color:#000000
+       }
+       .bottom32{
+           color:#000000;
+           font-size: 16px;
+           margin-top: 15px;
+       }
+       .bottom33{
+           color: #000000;
+           font-size: 17px;
+           margin-top: 50px;
+       }
+       .bottom34{
+           color: #000000;
+           font-size: 16px;
+           margin-top: 15px;
+       }
+       .bottom35{
+           color:#000000;
+           font-size: 16px;
+           margin-top: 2px;
+       }
+       .bottom36{
+           color: #000000;
+           font-size: 17px;
+           margin-top: 40px;
+       }
+       .bottom37{
+           color:#000000;
+           font-size: 16px;
+           margin-top: 15px;
+       }
+       .bottom3image{
+           display: flex;
+           width: 32px;
+           height: 22px;
+           margin-top: 35px;
+       }
+
+       .bottom4{
+           width: 478px;
+           height: 359.29px;
+           margin-top: 22px;
+       }
+       .bottom41{
+           font-size: 17px;
+           color: #000000;
+       }
+       .bottom42{
+           font-size: 16px;
+           color:#ff6c7c;
+           margin-top: 17px;
+       }
+       .bottom43{
+           font-size: 15px;
+           color:#000000;
+           margin-top: 13px;
+       }
+       .bottom44{
+           width: 478px;
+           height: 201.69px;
+           margin-top: 40px;
+       }
+
+       .side{
+           width: 1500px;
+           height: 216px;
+           background-color: black;
+           
+       }
+       .sidecenter{
+           width: 1280px;
+           height: 100.2;
+           margin-top: 60px;
+           margin-left: 100px;
+           color:#d6d6d6;
+           font-size: 13px;
+       }
+       .side1{
+           font-size: 13px;
+           color:#ffffff
+       }
+       .side2{
+           display: flex;
+           margin-top: 10px;
+       }
+       .side21{
+           margin-right: 20px;
+       }
+       .side22{
+       margin-right: 20px;
+       }
+       .side23{
+        margin-right: 20px;
+       }
+       .side3{
+           display: flex;
+           margin-top: 8px;
+       }
+       .side4{
+           margin-top: 8px;
+       }
+       
+       
